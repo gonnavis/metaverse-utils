@@ -6,6 +6,8 @@ class MeshCutter {
     this.localPlane = new THREE.Plane();
     this.tempVector3 = new THREE.Vector3();
     this.tempVector2 = new THREE.Vector2();
+
+    console.log('test')
   }
 
   transformFreeVectorInverse(v, m) {
